@@ -71,10 +71,16 @@
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="Property\Patience.cs" />
-    <Compile Include="UC-Forms\Patients.cs">
+    <Compile Include="UserControls\PatienceFillUpForm.cs">
       <SubType>UserControl</SubType>
     </Compile>
-    <Compile Include="UC-Forms\Patients.Designer.cs">
+    <Compile Include="UserControls\PatienceFillUpForm.Designer.cs">
+      <DependentUpon>PatienceFillUpForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="UserControls\Patients.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="UserControls\Patients.Designer.cs">
       <DependentUpon>Patients.cs</DependentUpon>
     </Compile>
     <EmbeddedResource Include="Forms\DashBoard.resx">
@@ -93,7 +99,10 @@
       <AutoGen>True</AutoGen>
       <DependentUpon>Resources.resx</DependentUpon>
     </Compile>
-    <EmbeddedResource Include="UC-Forms\Patients.resx">
+    <EmbeddedResource Include="UserControls\PatienceFillUpForm.resx">
+      <DependentUpon>PatienceFillUpForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UserControls\Patients.resx">
       <DependentUpon>Patients.cs</DependentUpon>
     </EmbeddedResource>
     <None Include="App.config" />

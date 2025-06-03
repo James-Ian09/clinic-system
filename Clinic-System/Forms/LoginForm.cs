@@ -18,7 +18,7 @@ namespace Clinic_System {
         private void btn_LoginButton_Click(object sender, EventArgs e)
         {
             this.DialogResult = DialogResult.OK;
-            //what does the DialogueResult represents? though
+            
         }
     }
 }

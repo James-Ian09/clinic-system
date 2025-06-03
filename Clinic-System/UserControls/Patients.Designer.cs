@@ -113,7 +113,7 @@
             // groupControl1
             // 
             this.groupControl1.Controls.Add(this.gridControl1);
-            this.groupControl1.Location = new System.Drawing.Point(181, 145);
+            this.groupControl1.Location = new System.Drawing.Point(172, 146);
             this.groupControl1.Name = "groupControl1";
             this.groupControl1.Size = new System.Drawing.Size(761, 267);
             this.groupControl1.TabIndex = 1;

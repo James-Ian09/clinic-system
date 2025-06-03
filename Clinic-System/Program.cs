@@ -6,6 +6,7 @@ using DevExpress.UserSkins;
 using DevExpress.Skins;
 using DevExpress.LookAndFeel;
 using Clinic_System.Forms;
+using Clinic_System.UserControls;
 
 namespace Clinic_System {
     static class Program {

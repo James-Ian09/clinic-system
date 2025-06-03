@@ -29,8 +29,9 @@
         private void InitializeComponent()
         {
             this.accordionControl1 = new DevExpress.XtraBars.Navigation.AccordionControl();
-            this.accordionControlElement1 = new DevExpress.XtraBars.Navigation.AccordionControlElement();
-            this.accordionControlElement2 = new DevExpress.XtraBars.Navigation.AccordionControlElement();
+            this.accDmcClinic = new DevExpress.XtraBars.Navigation.AccordionControlElement();
+            this.accPatient = new DevExpress.XtraBars.Navigation.AccordionControlElement();
+            this.accStudentElement = new DevExpress.XtraBars.Navigation.AccordionControlElement();
             this.accordionControlElement3 = new DevExpress.XtraBars.Navigation.AccordionControlElement();
             ((System.ComponentModel.ISupportInitialize)(this.accordionControl1)).BeginInit();
             this.SuspendLayout();
@@ -39,29 +40,31 @@
             // 
             this.accordionControl1.Dock = System.Windows.Forms.DockStyle.Left;
             this.accordionControl1.Elements.AddRange(new DevExpress.XtraBars.Navigation.AccordionControlElement[] {
-            this.accordionControlElement1});
+            this.accDmcClinic});
             this.accordionControl1.Location = new System.Drawing.Point(0, 0);
             this.accordionControl1.Name = "accordionControl1";
             this.accordionControl1.Size = new System.Drawing.Size(260, 445);
             this.accordionControl1.TabIndex = 0;
             // 
-            // accordionControlElement1
+            // accDmcClinic
             // 
-            this.accordionControlElement1.Appearance.Default.Font = new System.Drawing.Font("Segoe UI Variable Display Semib", 10.01739F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.accordionControlElement1.Appearance.Default.Options.UseFont = true;
-            this.accordionControlElement1.Elements.AddRange(new DevExpress.XtraBars.Navigation.AccordionControlElement[] {
-            this.accordionControlElement2,
-            this.accordionControlElement3});
-            this.accordionControlElement1.Expanded = true;
-            this.accordionControlElement1.Name = "accordionControlElement1";
-            this.accordionControlElement1.Text = "System Health Monitoring";
-            this.accordionControlElement1.Click += new System.EventHandler(this.accordionControlElement1_Click);
+            this.accDmcClinic.Elements.AddRange(new DevExpress.XtraBars.Navigation.AccordionControlElement[] {
+            this.accPatient});
+            this.accDmcClinic.Expanded = true;
+            this.accDmcClinic.Name = "accDmcClinic";
+            this.accDmcClinic.Text = "DMC CLINIC";
+            this.accDmcClinic.Click += new System.EventHandler(this.accDmcClinic_Click);
             // 
-            // accordionControlElement2
+            // accPatient
             // 
-            this.accordionControlElement2.Name = "accordionControlElement2";
-            this.accordionControlElement2.Style = DevExpress.XtraBars.Navigation.ElementStyle.Item;
-            this.accordionControlElement2.Text = "Student Information";
+            this.accPatient.Name = "accPatient";
+            this.accPatient.Style = DevExpress.XtraBars.Navigation.ElementStyle.Item;
+            this.accPatient.Text = "Patient ";
+            this.accPatient.Click += new System.EventHandler(this.accPatient_Click);
+            // 
+            // accStudentElement
+            // 
+            this.accStudentElement.Name = "accStudentElement";
             // 
             // accordionControlElement3
             // 
@@ -85,8 +88,9 @@
         #endregion
 
         private DevExpress.XtraBars.Navigation.AccordionControl accordionControl1;
-        private DevExpress.XtraBars.Navigation.AccordionControlElement accordionControlElement1;
-        private DevExpress.XtraBars.Navigation.AccordionControlElement accordionControlElement2;
+        private DevExpress.XtraBars.Navigation.AccordionControlElement accDmcClinic;
+        private DevExpress.XtraBars.Navigation.AccordionControlElement accStudentElement;
         private DevExpress.XtraBars.Navigation.AccordionControlElement accordionControlElement3;
+        private DevExpress.XtraBars.Navigation.AccordionControlElement accPatient;
     }
 }

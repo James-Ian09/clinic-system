@@ -18,7 +18,12 @@ namespace Clinic_System.Forms
             InitializeComponent();
 		}
 
-        private void accordionControlElement1_Click(object sender, EventArgs e)
+        private void accDmcClinic_Click(object sender, EventArgs e)//accordine control for DMC Clinic
+        {
+
+        }
+
+        private void accPatient_Click(object sender, EventArgs e)//accordine control for Patient's
         {
 
         }
