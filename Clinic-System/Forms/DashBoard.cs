@@ -8,6 +8,7 @@ using System.Linq;
 using System.Threading.Tasks;
 using System.Windows.Forms;
 using DevExpress.XtraEditors;
+using Clinic_System.UserControls;
 
 namespace Clinic_System.Forms
 {
@@ -18,14 +19,13 @@ namespace Clinic_System.Forms
             InitializeComponent();
 		}
 
-        private void accDmcClinic_Click(object sender, EventArgs e)//accordine control for DMC Clinic
-        {
-
-        }
 
         private void accPatient_Click(object sender, EventArgs e)//accordine control for Patient's
         {
-
+            panelBody.Controls.Clear();
+            PatienceFillUpForm patienceFillUpForm = new PatienceFillUpForm();
+            patienceFillUpForm.Dock = DockStyle.Fill;
+            panelBody.Controls.Add(patienceFillUpForm);
         }
     }
 }
