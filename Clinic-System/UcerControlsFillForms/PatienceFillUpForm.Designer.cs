@@ -104,21 +104,21 @@
             // 
             // textEdit1
             // 
-            this.textEdit1.Location = new System.Drawing.Point(85, 44);
+            this.textEdit1.Location = new System.Drawing.Point(137, 44);
             this.textEdit1.Name = "textEdit1";
             this.textEdit1.Properties.Appearance.Font = new System.Drawing.Font("Segoe UI Variable Text", 10.01739F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.textEdit1.Properties.Appearance.Options.UseFont = true;
-            this.textEdit1.Size = new System.Drawing.Size(195, 28);
+            this.textEdit1.Size = new System.Drawing.Size(60, 28);
             this.textEdit1.StyleController = this.layoutControl1;
             this.textEdit1.TabIndex = 4;
             // 
             // textEdit11
             // 
-            this.textEdit11.Location = new System.Drawing.Point(636, 44);
+            this.textEdit11.Location = new System.Drawing.Point(675, 44);
             this.textEdit11.Name = "textEdit11";
             this.textEdit11.Properties.Appearance.Font = new System.Drawing.Font("Segoe UI Variable Text", 10.01739F);
             this.textEdit11.Properties.Appearance.Options.UseFont = true;
-            this.textEdit11.Size = new System.Drawing.Size(135, 28);
+            this.textEdit11.Size = new System.Drawing.Size(60, 28);
             this.textEdit11.StyleController = this.layoutControl1;
             this.textEdit11.TabIndex = 4;
             // 
@@ -160,17 +160,17 @@
             // emptySpaceItem1
             // 
             this.emptySpaceItem1.AllowHotTrack = false;
-            this.emptySpaceItem1.Location = new System.Drawing.Point(10, 241);
+            this.emptySpaceItem1.Location = new System.Drawing.Point(62, 241);
             this.emptySpaceItem1.Name = "emptySpaceItem1";
-            this.emptySpaceItem1.Size = new System.Drawing.Size(262, 119);
+            this.emptySpaceItem1.Size = new System.Drawing.Size(127, 119);
             this.emptySpaceItem1.TextSize = new System.Drawing.Size(0, 0);
             // 
             // emptySpaceItem2
             // 
             this.emptySpaceItem2.AllowHotTrack = false;
-            this.emptySpaceItem2.Location = new System.Drawing.Point(561, 22);
+            this.emptySpaceItem2.Location = new System.Drawing.Point(600, 22);
             this.emptySpaceItem2.Name = "emptySpaceItem2";
-            this.emptySpaceItem2.Size = new System.Drawing.Size(202, 10);
+            this.emptySpaceItem2.Size = new System.Drawing.Size(127, 10);
             this.emptySpaceItem2.Text = "`w";
             this.emptySpaceItem2.TextSize = new System.Drawing.Size(0, 0);
             // 
@@ -179,7 +179,7 @@
             this.emptySpaceItem4.AllowHotTrack = false;
             this.emptySpaceItem4.Location = new System.Drawing.Point(0, 22);
             this.emptySpaceItem4.Name = "emptySpaceItem4";
-            this.emptySpaceItem4.Size = new System.Drawing.Size(10, 338);
+            this.emptySpaceItem4.Size = new System.Drawing.Size(62, 338);
             this.emptySpaceItem4.TextSize = new System.Drawing.Size(0, 0);
             // 
             // emptySpaceItem5
@@ -193,41 +193,41 @@
             // s
             // 
             this.s.AllowHotTrack = false;
-            this.s.Location = new System.Drawing.Point(10, 64);
+            this.s.Location = new System.Drawing.Point(62, 64);
             this.s.Name = "s";
-            this.s.Size = new System.Drawing.Size(262, 35);
+            this.s.Size = new System.Drawing.Size(127, 35);
             this.s.TextSize = new System.Drawing.Size(0, 0);
             // 
             // emptySpaceItem7
             // 
             this.emptySpaceItem7.AllowHotTrack = false;
-            this.emptySpaceItem7.Location = new System.Drawing.Point(272, 22);
+            this.emptySpaceItem7.Location = new System.Drawing.Point(189, 22);
             this.emptySpaceItem7.Name = "emptySpaceItem7";
-            this.emptySpaceItem7.Size = new System.Drawing.Size(289, 338);
+            this.emptySpaceItem7.Size = new System.Drawing.Size(411, 338);
             this.emptySpaceItem7.TextSize = new System.Drawing.Size(0, 0);
             // 
             // emptySpaceItem8
             // 
             this.emptySpaceItem8.AllowHotTrack = false;
-            this.emptySpaceItem8.Location = new System.Drawing.Point(10, 22);
+            this.emptySpaceItem8.Location = new System.Drawing.Point(62, 22);
             this.emptySpaceItem8.Name = "emptySpaceItem8";
-            this.emptySpaceItem8.Size = new System.Drawing.Size(262, 10);
+            this.emptySpaceItem8.Size = new System.Drawing.Size(127, 10);
             this.emptySpaceItem8.TextSize = new System.Drawing.Size(0, 0);
             // 
             // emptySpaceItem9
             // 
             this.emptySpaceItem9.AllowHotTrack = false;
-            this.emptySpaceItem9.Location = new System.Drawing.Point(561, 246);
+            this.emptySpaceItem9.Location = new System.Drawing.Point(600, 246);
             this.emptySpaceItem9.Name = "emptySpaceItem9";
-            this.emptySpaceItem9.Size = new System.Drawing.Size(202, 57);
+            this.emptySpaceItem9.Size = new System.Drawing.Size(127, 57);
             this.emptySpaceItem9.TextSize = new System.Drawing.Size(0, 0);
             // 
             // emptySpaceItem10
             // 
             this.emptySpaceItem10.AllowHotTrack = false;
-            this.emptySpaceItem10.Location = new System.Drawing.Point(561, 64);
+            this.emptySpaceItem10.Location = new System.Drawing.Point(600, 64);
             this.emptySpaceItem10.Name = "emptySpaceItem10";
-            this.emptySpaceItem10.Size = new System.Drawing.Size(202, 56);
+            this.emptySpaceItem10.Size = new System.Drawing.Size(127, 56);
             this.emptySpaceItem10.TextSize = new System.Drawing.Size(0, 0);
             // 
             // emptySpaceItem11
@@ -241,9 +241,9 @@
             // emptySpaceItem12
             // 
             this.emptySpaceItem12.AllowHotTrack = false;
-            this.emptySpaceItem12.Location = new System.Drawing.Point(561, 120);
+            this.emptySpaceItem12.Location = new System.Drawing.Point(600, 120);
             this.emptySpaceItem12.Name = "emptySpaceItem12";
-            this.emptySpaceItem12.Size = new System.Drawing.Size(202, 126);
+            this.emptySpaceItem12.Size = new System.Drawing.Size(127, 126);
             this.emptySpaceItem12.TextSize = new System.Drawing.Size(0, 0);
             // 
             // layoutControlItem1
@@ -251,9 +251,9 @@
             this.layoutControlItem1.AppearanceItemCaption.Font = new System.Drawing.Font("Segoe UI Variable Small", 11.89565F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.layoutControlItem1.AppearanceItemCaption.Options.UseFont = true;
             this.layoutControlItem1.Control = this.textEdit1;
-            this.layoutControlItem1.Location = new System.Drawing.Point(10, 32);
+            this.layoutControlItem1.Location = new System.Drawing.Point(62, 32);
             this.layoutControlItem1.Name = "layoutControlItem1";
-            this.layoutControlItem1.Size = new System.Drawing.Size(262, 32);
+            this.layoutControlItem1.Size = new System.Drawing.Size(127, 32);
             this.layoutControlItem1.Text = "Name";
             this.layoutControlItem1.TextSize = new System.Drawing.Size(51, 26);
             // 
@@ -264,43 +264,43 @@
             this.layoutControlItem2.Control = this.textEdit11;
             this.layoutControlItem2.ControlAlignment = System.Drawing.ContentAlignment.TopLeft;
             this.layoutControlItem2.CustomizationFormText = "Name";
-            this.layoutControlItem2.Location = new System.Drawing.Point(561, 32);
+            this.layoutControlItem2.Location = new System.Drawing.Point(600, 32);
             this.layoutControlItem2.Name = "layoutControlItem2";
-            this.layoutControlItem2.Size = new System.Drawing.Size(202, 32);
+            this.layoutControlItem2.Size = new System.Drawing.Size(127, 32);
             this.layoutControlItem2.Text = "Name";
             this.layoutControlItem2.TextSize = new System.Drawing.Size(51, 26);
             // 
             // emptySpaceItem13
             // 
             this.emptySpaceItem13.AllowHotTrack = false;
-            this.emptySpaceItem13.Location = new System.Drawing.Point(10, 131);
+            this.emptySpaceItem13.Location = new System.Drawing.Point(62, 131);
             this.emptySpaceItem13.Name = "emptySpaceItem13";
-            this.emptySpaceItem13.Size = new System.Drawing.Size(262, 110);
+            this.emptySpaceItem13.Size = new System.Drawing.Size(127, 110);
             this.emptySpaceItem13.TextSize = new System.Drawing.Size(0, 0);
             // 
             // emptySpaceItem14
             // 
             this.emptySpaceItem14.AllowHotTrack = false;
-            this.emptySpaceItem14.Location = new System.Drawing.Point(763, 22);
+            this.emptySpaceItem14.Location = new System.Drawing.Point(727, 22);
             this.emptySpaceItem14.Name = "emptySpaceItem14";
-            this.emptySpaceItem14.Size = new System.Drawing.Size(10, 338);
+            this.emptySpaceItem14.Size = new System.Drawing.Size(46, 338);
             this.emptySpaceItem14.TextSize = new System.Drawing.Size(0, 0);
             // 
             // emptySpaceItem15
             // 
             this.emptySpaceItem15.AllowHotTrack = false;
-            this.emptySpaceItem15.Location = new System.Drawing.Point(561, 303);
+            this.emptySpaceItem15.Location = new System.Drawing.Point(600, 303);
             this.emptySpaceItem15.Name = "emptySpaceItem15";
-            this.emptySpaceItem15.Size = new System.Drawing.Size(202, 57);
+            this.emptySpaceItem15.Size = new System.Drawing.Size(127, 57);
             this.emptySpaceItem15.TextSize = new System.Drawing.Size(0, 0);
             // 
             // textEdit111
             // 
-            this.textEdit111.Location = new System.Drawing.Point(85, 111);
+            this.textEdit111.Location = new System.Drawing.Point(137, 111);
             this.textEdit111.Name = "textEdit111";
             this.textEdit111.Properties.Appearance.Font = new System.Drawing.Font("Segoe UI Variable Text", 10.01739F);
             this.textEdit111.Properties.Appearance.Options.UseFont = true;
-            this.textEdit111.Size = new System.Drawing.Size(195, 28);
+            this.textEdit111.Size = new System.Drawing.Size(60, 28);
             this.textEdit111.StyleController = this.layoutControl1;
             this.textEdit111.TabIndex = 4;
             // 
@@ -311,9 +311,9 @@
             this.layoutControlItem3.Control = this.textEdit111;
             this.layoutControlItem3.ControlAlignment = System.Drawing.ContentAlignment.TopLeft;
             this.layoutControlItem3.CustomizationFormText = "Name";
-            this.layoutControlItem3.Location = new System.Drawing.Point(10, 99);
+            this.layoutControlItem3.Location = new System.Drawing.Point(62, 99);
             this.layoutControlItem3.Name = "layoutControlItem3";
-            this.layoutControlItem3.Size = new System.Drawing.Size(262, 32);
+            this.layoutControlItem3.Size = new System.Drawing.Size(127, 32);
             this.layoutControlItem3.Text = "Name";
             this.layoutControlItem3.TextSize = new System.Drawing.Size(51, 26);
             // 

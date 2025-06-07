@@ -50,6 +50,8 @@
             // 
             // accDmcClinic
             // 
+            this.accDmcClinic.Appearance.Default.Font = new System.Drawing.Font("Segoe UI Variable Small", 16.27826F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.accDmcClinic.Appearance.Default.Options.UseFont = true;
             this.accDmcClinic.Elements.AddRange(new DevExpress.XtraBars.Navigation.AccordionControlElement[] {
             this.accPatient});
             this.accDmcClinic.Expanded = true;
@@ -58,6 +60,8 @@
             // 
             // accPatient
             // 
+            this.accPatient.Appearance.Default.Font = new System.Drawing.Font("Segoe UI Variable Text", 11.89565F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.accPatient.Appearance.Default.Options.UseFont = true;
             this.accPatient.Name = "accPatient";
             this.accPatient.Style = DevExpress.XtraBars.Navigation.ElementStyle.Item;
             this.accPatient.Text = "Patient ";
