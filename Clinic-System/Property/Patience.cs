@@ -17,5 +17,7 @@ namespace Clinic_System.Property
         public string patient_GuardianName { get; set; }
         public int patient_EmergencyContact { get; set; }
         public string patient_KnowAllergies { get; set; }
+
+       // public int MyProperty { get; set; } This is a message that i am making
     }
 }

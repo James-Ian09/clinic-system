@@ -78,6 +78,12 @@
       <DesignTime>True</DesignTime>
       <DependentUpon>DataSet1.xsd</DependentUpon>
     </Compile>
+    <Compile Include="FormsForLater.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="FormsForLater.Designer.cs">
+      <DependentUpon>FormsForLater.cs</DependentUpon>
+    </Compile>
     <Compile Include="Forms\DashBoard.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -98,12 +104,6 @@
     </Compile>
     <Compile Include="UcerControlsFillForms\PatienceFillUpForm.Designer.cs">
       <DependentUpon>PatienceFillUpForm.cs</DependentUpon>
-    </Compile>
-    <Compile Include="UcerControlsFillForms\Testing.cs">
-      <SubType>UserControl</SubType>
-    </Compile>
-    <Compile Include="UcerControlsFillForms\Testing.Designer.cs">
-      <DependentUpon>Testing.cs</DependentUpon>
     </Compile>
     <Compile Include="UserControls\Patients.cs">
       <SubType>UserControl</SubType>
@@ -129,9 +129,6 @@
     </Compile>
     <EmbeddedResource Include="UcerControlsFillForms\PatienceFillUpForm.resx">
       <DependentUpon>PatienceFillUpForm.cs</DependentUpon>
-    </EmbeddedResource>
-    <EmbeddedResource Include="UcerControlsFillForms\Testing.resx">
-      <DependentUpon>Testing.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="UserControls\Patients.resx">
       <DependentUpon>Patients.cs</DependentUpon>
