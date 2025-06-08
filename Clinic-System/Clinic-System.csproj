@@ -73,27 +73,22 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="DataSet1.Designer.cs">
-      <AutoGen>True</AutoGen>
-      <DesignTime>True</DesignTime>
-      <DependentUpon>DataSet1.xsd</DependentUpon>
-    </Compile>
-    <Compile Include="FormsForLater.cs">
+    <Compile Include="FillUpUserControl\UC_PatientFillUp.cs">
       <SubType>UserControl</SubType>
     </Compile>
-    <Compile Include="FormsForLater.Designer.cs">
-      <DependentUpon>FormsForLater.cs</DependentUpon>
+    <Compile Include="FillUpUserControl\UC_PatientFillUp.Designer.cs">
+      <DependentUpon>UC_PatientFillUp.cs</DependentUpon>
     </Compile>
-    <Compile Include="Forms\DashBoard.cs">
+    <Compile Include="MainForms\DashBoard.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="Forms\DashBoard.Designer.cs">
+    <Compile Include="MainForms\DashBoard.Designer.cs">
       <DependentUpon>DashBoard.cs</DependentUpon>
     </Compile>
-    <Compile Include="Forms\LoginForm.cs">
+    <Compile Include="MainForms\LoginForm.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="Forms\LoginForm.Designer.cs">
+    <Compile Include="MainForms\LoginForm.Designer.cs">
       <DependentUpon>LoginForm.cs</DependentUpon>
     </Compile>
     <Compile Include="Program.cs" />
@@ -105,10 +100,13 @@
     <Compile Include="UserControls\Patients.Designer.cs">
       <DependentUpon>Patients.cs</DependentUpon>
     </Compile>
-    <EmbeddedResource Include="Forms\DashBoard.resx">
+    <EmbeddedResource Include="FillUpUserControl\UC_PatientFillUp.resx">
+      <DependentUpon>UC_PatientFillUp.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="MainForms\DashBoard.resx">
       <DependentUpon>DashBoard.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="Forms\LoginForm.resx">
+    <EmbeddedResource Include="MainForms\LoginForm.resx">
       <DependentUpon>LoginForm.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Properties\licenses.licx" />
@@ -125,17 +123,6 @@
       <DependentUpon>Patients.cs</DependentUpon>
     </EmbeddedResource>
     <None Include="App.config" />
-    <None Include="DataSet1.xsc">
-      <DependentUpon>DataSet1.xsd</DependentUpon>
-    </None>
-    <None Include="DataSet1.xsd">
-      <Generator>MSDataSetGenerator</Generator>
-      <LastGenOutput>DataSet1.Designer.cs</LastGenOutput>
-      <SubType>Designer</SubType>
-    </None>
-    <None Include="DataSet1.xss">
-      <DependentUpon>DataSet1.xsd</DependentUpon>
-    </None>
     <None Include="Properties\Settings.settings">
       <Generator>SettingsSingleFileGenerator</Generator>
       <LastGenOutput>Settings.Designer.cs</LastGenOutput>
@@ -149,6 +136,7 @@
   <ItemGroup>
     <WCFMetadata Include="Connected Services\" />
   </ItemGroup>
+  <ItemGroup />
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it.
        Other similar extension points exist, see Microsoft.Common.targets.

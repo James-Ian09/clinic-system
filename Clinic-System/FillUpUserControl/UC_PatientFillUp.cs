@@ -11,9 +11,9 @@ using DevExpress.XtraEditors;
 
 namespace Clinic_System
 {
-	public partial class FormsForLater: DevExpress.XtraEditors.XtraUserControl
+	public partial class UC_PatientFillUp: DevExpress.XtraEditors.XtraUserControl
 	{
-        public FormsForLater()
+        public UC_PatientFillUp()
 		{
             InitializeComponent();
 		}

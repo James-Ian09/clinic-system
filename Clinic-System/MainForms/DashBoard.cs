@@ -8,7 +8,7 @@ using System.Linq;
 using System.Threading.Tasks;
 using System.Windows.Forms;
 using DevExpress.XtraEditors;
-//using Clinic_System.UserControls;
+using Clinic_System.UC_Forms;
 
 namespace Clinic_System.Forms
 {
@@ -22,10 +22,25 @@ namespace Clinic_System.Forms
 
         private void accPatient_Click(object sender, EventArgs e)//accordine control for Patient's
         {
-            //panelBody.Controls.Clear();
-            //PatienceFillUpForm patienceFillUpForm = new PatienceFillUpForm();
-            //patienceFillUpForm.Dock = DockStyle.Fill;
-            //panelBody.Controls.Add(patienceFillUpForm);
+            panelBody.Controls.Clear();
+            Patients patienceFillUpForm = new Patients();
+            patienceFillUpForm.Dock = DockStyle.Fill;
+            panelBody.Controls.Add(patienceFillUpForm);
+        }
+
+        private void panelBody_Paint(object sender, PaintEventArgs e)
+        {
+
+        }
+
+        private void accDmcClinic_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void accordionControlElement1_Click(object sender, EventArgs e)
+        {
+
         }
     }
 }
