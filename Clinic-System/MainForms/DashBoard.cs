@@ -40,7 +40,15 @@ namespace Clinic_System.Forms
 
         private void accordionControlElement1_Click(object sender, EventArgs e)
         {
+            for (int i = 0; i < 10; i++) // making a for loop 
+            {
 
+            }
+
+            for (int i = 0; i < 10; i++) // making another for loop
+            {
+
+            }
         }
     }
 }
